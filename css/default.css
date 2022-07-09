@@ -1,0 +1,30 @@
+body{
+    background-color: #fffdf5;
+  }
+  
+.my-box {
+  width : 546px;
+  height: 662px;
+  background-color: white;
+  border: 3px solid #6524ff;
+  border-radius: 35px;
+  font-size: 26px;
+  color: #6524ff;
+}
+
+.my-box { 
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-252px;
+    margin-top:-350px;
+}
+
+.my-box {
+  text-align: center;
+}
+
+.answerBox{
+  margin-top: 70px;
+  font-size: 20px;
+}

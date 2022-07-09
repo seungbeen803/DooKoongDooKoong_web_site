@@ -1,0 +1,103 @@
+#result{
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.restart{
+  margin: 0;
+  top: 27%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #6524FF;
+  font-weight: 700;
+  font-family: "두궁두궁", serif;
+  font-size: 18px;
+}
+
+.result_M{
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width : 1500px;
+  height: 930px;  
+  /* z-index: 999; */
+}
+
+#resultImg {
+  position: absolute;
+  transform: translate(-90%,-45%);
+  top: 52%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+#qrImg {
+  position: absolute;
+  transform: translate(-90%,-45%);
+  top: 68%;
+  left: 52%;
+  width: 500px;
+  height: 500px;
+}
+
+.resultDesc {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 40%;
+  left: 67%;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+.resultDesc2 {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 60%;
+  color: #6524FF;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.resultName {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 45%;
+  left: 67%;
+  font-size: 45px;
+  font-weight: 1000;
+  letter-spacing: -0.1em;
+  background: linear-gradient(to top, #aa8bf4 30%, transparent 25%);
+}
+
+#qrImg img {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 28%;
+  left: 148%;
+  width: 200px;
+  /* height: 100px; */
+}
+
+/* .house{
+  margin: 0;
+  top: 27%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #6524FF;
+  font-weight: 700;
+  font-family: "두궁두궁", serif;
+  font-size: 18px;
+  width: 23px;
+} */

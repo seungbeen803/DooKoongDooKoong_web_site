@@ -1,0 +1,147 @@
+body{
+    background-color: beige;
+}
+.background{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgback{
+    max-width: 80%;
+    height: 95%;
+    
+}
+h2{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 15.5%;
+    left: 22%;
+    font-family: "두궁두궁";
+    transform: translate(0%, 105%);
+    color: #6524FF;
+}
+input{
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+    background-color: white;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19.5%;
+    margin-left: 36%;
+    position: absolute;
+}
+/* #password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23%;
+    margin-left: 36%;
+    position: absolute;
+} */
+.btn1{
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 220px;
+    height: 53px;
+    background-color: #6524FF;
+    border: solid #6524FF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 62%;
+    left: 42%;
+}
+
+.btn2{
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 220px;
+    height: 53px;
+    background-color: #6524FF;
+    border: solid #6524FF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 62%;
+    left: 57.5%;
+}
+.btn1{
+    font-family: "두궁두궁", serif; color: white;
+    font-size: 18px;
+}
+.btn2{
+    font-family: "두궁두궁", serif; color: white;
+    font-size: 18px;
+}
+body>p{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    color: #767676;
+    top: 68.3%;
+    left: 45%;
+}
+body>a{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    color: #191919;
+    font-weight: bold;
+    top: 68.3%;
+    left: 56%;
+}
+.qbox{
+    margin-top: 10%;
+  }
+
+#resultImg{
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+
+}
+
+.resultname{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(245%, -7%);
+    position: absolute;
+}
+.resultDesc{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(385%, 300%);
+    position: absolute;
+}
+
+#qrcode_img{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(385%, 500%);
+    position: absolute;
+}

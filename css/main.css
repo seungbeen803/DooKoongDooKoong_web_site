@@ -1,0 +1,75 @@
+.btn1{
+    font-family: "두궁두궁", serif; color: white;
+    font-size: 18px;
+}
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.img01{
+    width : 610px;
+    height: 480px;
+    z-index: 10;
+}
+
+.img02 {
+    
+    width: 620px;
+    /* z-index: 2; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.btn1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 250px;
+    height: 53px;
+    background-color: #6524FF;
+    border: solid #6524FF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+}
+
+/* .btn2{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 220px;
+    height: 53px;
+    background-color: #6524FF;
+    border: solid #6524FF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 62%;
+    left: 57%;
+
+} */
+
+a{
+    margin: 0;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #6524FF;
+    font-weight: 700;
+    font-family: "두궁두궁", serif;
+    font-size: 18px;
+}

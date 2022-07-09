@@ -1,0 +1,25 @@
+#qna {
+  display: none;
+} 
+
+.qBox{
+  padding: 8mm;
+  text-align : left;
+  font-weight: bold;
+}
+
+.answerList {
+    background-color: #f1f1f5;
+    border-radius: 50px;
+    display: block;
+    width: 90%;
+    height: 90px;
+    border: none;
+    /* transform: translate(0%, 105%); */
+  }
+
+ .answerList:hover, .answerList:focus {
+   background-color: #6524ff;
+   color: #ffffff;
+ }
+ 

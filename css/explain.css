@@ -1,0 +1,49 @@
+body{
+  background-size: 100%;
+}
+#logo{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: auto;
+}
+#introduce{
+  margin-top: 0;
+  position: absolute;
+  width: 300px;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+ #h2{
+    position: absolute;
+    width: 300px;
+    top:200px;
+    left: 80px;
+    transform:translate(-50%, -50%);
+  }  
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.restart{
+  margin: 0;
+  top: 96%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #6524FF;
+  font-weight: 700;
+  font-family: "My Font1", serif;
+  font-size: 25px;
+}

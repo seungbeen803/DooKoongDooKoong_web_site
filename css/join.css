@@ -1,0 +1,100 @@
+body{
+    background-color: beige;
+}
+.background{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgback{
+    max-width: 80%;
+    height: 95%;
+    
+}
+h2{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 18%;
+    left: 24%;
+    transform: translate(0%, 105%);
+    color: blueviolet;
+}
+input{
+    width: 450px;
+    height: 50px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+    background-color: white;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+    margin-left: 38%;
+    position: absolute;
+}
+#password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22%;
+    margin-left: 38%;
+    position: absolute;
+}
+#passwordCheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26%;
+    margin-left: 38%;
+    position: absolute;
+}
+.btn1{
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 220px;
+    height: 53px;
+    background-color: #6524FF;
+    border: solid #6524FF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 42%;
+}
+
+.btn2{
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 220px;
+    height: 53px;
+    background-color: #6524FF;
+    border: solid #6524FF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 57%;
+}
+.btn1{
+    font-family: "두궁두궁", serif; color: white;
+    font-size: 18px;
+}
+.btn2{
+    font-family: "두궁두궁", serif; color: white;
+    font-size: 18px;
+}

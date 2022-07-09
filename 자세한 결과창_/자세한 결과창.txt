@@ -1,0 +1,344 @@
+---ENFP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .enfp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/enfp.png" class="enfp" alt="">
+</body>
+</html>
+
+---ENTJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .entj{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/entj.png" class="entj" alt="">
+</body>
+</html>
+
+---ENTP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .entp{
+            width: 100%;
+            height: auto;
+            }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/entp.png" class="entp" alt="">
+</body>
+</html>
+
+---ESFJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .esfj{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/esfj.png" class="esfj" alt="">
+</body>
+</html>
+
+---ESFP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .esfp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/esfp.png" class="esfp" alt="">
+</body>
+</html>
+
+---ESTJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .estj{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/estj.png" class="estj" alt="">
+</body>
+</html>
+
+---ESTP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .estp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/estp.png" class="estp" alt="">
+</body>
+</html>
+
+---INFJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .infj{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/infj.png" class="infj" alt="">
+</body>
+</html>
+
+---INFP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .infp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/infp.png" class="infp" alt="">
+</body>
+</html>
+
+---INTJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .intj{
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/intj.png" class="intj" alt="">
+</body>
+</html>
+
+---INTP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .intp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/intp.png" class="intp" alt="">
+</body>
+</html>
+
+---ISFJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .isfj{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/isfj.png" class="isfj" alt="">
+</body>
+</html>
+
+---ISFP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .isfp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/isfp.png" class="isfp" alt="">
+</body>
+</html>
+
+---ISTJ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .istj{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/istj.png" class="istj" alt="">
+</body>
+</html>
+
+---ISTP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reusltimg.css">
+    <style>
+        @media screen and (max-width: 767px){
+        .istp{
+            width: 100%;
+            height: auto;
+        }
+        }
+    </style>
+    <title>자세한 결과창</title>
+</head>
+<body>
+    <img src="./img/istp.png" class="istp" alt="">
+</body>
+</html>
