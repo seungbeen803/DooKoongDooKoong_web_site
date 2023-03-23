@@ -3,33 +3,42 @@ const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 const endPoint= 12;
 
-function addAnswer(answerText, qIdx, idx, delta){ //승빈
-    let section = document.querySelector('.answerBox');
-    let answer = document.createElement('button');
-    answer.classList.add('answerList');
-    answer.classList.add('my-5');
-    answer.classList.add('py-2');
-    answer.classList.add('mx-auto');
-    answer.classList.add('fadeIn');
+// 승빈
+function addAnswer(answerText, qIdx, idx, delta){   // 4개의 파라미터를 받은 함수 선언
+  let section = document.querySelector('.answerBox');  // section 변수에 querySelector() 선택자로 Html에 있는 클래스 값이 .answerBox인 첫번째 요소에 접근한다.
+  // createElement() : 원하는 태그를 생성해주는 기능을 함
+  let answer = document.createElement('button'); // answer라는 변수를 createElement() 선택자를 사용하여 버튼을 만든다.
+  // classList.add() : 클래스를 추가하는 메서드이다.
+  answer.classList.add('answerList'); // 버튼이 추가되었을 때 classList.add()라는 메서드를 통해 ansewerList라는 이름의 클래스 추가
+  answer.classList.add('my-5'); // 버튼이 추가되었을 때 classList.add()로 'my-5' 추가 margin값
+  answer.classList.add('py-2'); //버튼이 추가되었을 때 classList.add()로 'py-2' 추가 padding값
+  answer.classList.add('mx-auto'); // 버튼이 추가되었을 때 classList.add()로 'mx-auto' 추가 기본값
+  answer.classList.add('fadeIn'); // 버튼이 추가되었을 때 classList.add()로 'fadeIn' 추가
 
-    section.appendChild(answer); //answer이라는 변수가 section에 소속됨을 의미
-    answer.innerHTML = answerText;
+  // appendChild란 함수를 통해서 answer라는 button이 section안에 소속되는 관계를 만들어줌
+  section.appendChild(answer); //answer이라는 변수가 section에 소속됨을 의미
+  answer.innerHTML = answerText; // answer에 innerHTML을 사용하여 start.js의 text의 값을 가져온다
 
-    answer.addEventListener("click", function() {
-        votes[idx] += delta;
-        var children = document.querySelectorAll('.answerList');
-        for (let i = 0; i < children.length; i++) {
-          children[i].disabled = true;
-          children[i].style.WebkitAnimation = "fadeOut 0.5s";
-          children[i].style.animation = "fadeOut 0.5s";
+  // createElement라는 선택자를 이용하여 버튼을 만들어주었기 때문에 on click이라는 속성을 addEventListener()라는 js 함수를 이용하여 만들어준다.
+  // addEventListener() : 지정한 이벤트가 대상에 전달될 때마다 호출할 함수를 설정함
+  answer.addEventListener("click", function() { // answer 버튼에 eventListener를 추가
+      votes[idx] += delta; // votes : EI, SN, FT, PJ의 초기값, idx 값에 따라 delta의 값이 더해짐
+      // querySelectorAll() : CSS선택자와 일치하는 요소 목록을 모두 찾음(문서 객체를 가져오는 복수 메서드)
+      var children = document.querySelectorAll('.answerList'); // children 변수에 버튼 3개를 전부를 담으려 하는데 querySelectorAll()로 다 선택을하기 위해서는 class나 id값이 필요하므로 answerList의 클래스를 가져옴
+      for (let i = 0; i < children.length; i++) { // 0 ~ children의 길이만큼 i가 증가함
+        // disabled : 태그를 사용한 버튼을 활성화/비활성화 할 때는 disabled속성을 이용함
+        children[i].disabled = true; // 변수에 요소마다 disabled의 값에 true 값을 주어 선택된 버튼을 제외한 나머지 버튼은 비활성화 시킴
+        children[i].style.WebkitAnimation = "fadeOut 0.5s"; // children에서 style의 WebkitAnimation에 "fadeOut 0.5s" 지정
+        children[i].style.animation = "fadeOut 0.5s"; // 그냥 animation도 "fadeOut 0.5s" 지정
+      }
+      setTimeout(() => { // setTimeout()함수를 만들어 버튼이 사라진 450초 쯤 이후 다시 반복문을 돌면서 버튼에 대한 style의 display를 none으로 바꿈
+       for (let i = 0; i < children.length; i++) {
+          children[i].style.display = 'none'; // 요소마다 style의 display에 none을 주게되면 선택된 버튼을 제외한 모든 버튼이 사라짐 
         }
-        setTimeout(() => {
-         for (let i = 0; i < children.length; i++) {
-            children[i].style.display = 'none';
-          }
-          goNext(++qIdx);
-        }, 450)
-    }, false);
+        // 반복문이 끝난 뒤 goNext() 함수를 넣음
+        goNext(++qIdx); // goNext()함수의 qIdx값을 1씩 증가 시키며 호출
+      }, 450)
+  }, false);
 }
 
 function getMBTI() {  //민영
